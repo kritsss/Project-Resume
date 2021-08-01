@@ -1,0 +1,371 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+
+#body-header{
+    height: 70vh;
+    width: 100%;
+    background-image: url("resources/black1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; */
+}
+.text-center{
+    text-align: center;
+}
+
+#list-1{
+    list-style: none;
+    /* text-align: center; */
+}
+
+#list-1 li{
+    display: inline-block;
+    margin: 0px 40px;
+}
+
+#list-1 li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+#list-1 li a:hover{
+    color: wheat;
+    font-size: 28px;
+}
+
+#name{
+    font-size: 85px;
+    font-family: cursive;
+    color: whitesmoke;
+    margin-bottom: 0.5rem;
+    font-weight: 900;
+    /* border: 2px solid wheat; */
+    /* margin-right: 100px;
+    margin-left: 100px; */
+    /* box-shadow: 0px 0px 8px 4px white; */
+    text-shadow: 0 0 10px cyan, 0 0 10px rgb(25, 0, 255);
+    /* display: flex;
+    flex-wrap: wrap; */
+} 
+
+#list-2{
+    list-style: none;
+    /* text-align: center; */
+}
+
+#list-2 li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+#list-2 li a{
+    transition: 0.5s;
+    /* margin-top: -10vh; */
+}
+
+#list-2 li a:hover{
+    /* margin-top: -10vh; */
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 4px whitesmoke;
+}
+
+.icons{
+    font-size: 1rem;
+    border-radius: 100%;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border-bottom: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+section:nth-child(2n){
+    /* display: flex;
+    flex-wrap: wrap; */
+    background-color: rgb(8, 8, 8);
+}
+
+section:nth-child(2n + 1){
+    background-color: rgb(48, 47, 47);
+}
+
+#my-img{
+    height:18rem;
+    width: 22rem;
+    margin: auto;
+    margin-top: -25vh;
+}
+
+#my-img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px 4px white;
+}
+
+#my-text{
+    color: beige;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px 3px white;
+    font-size: 30px;
+    text-align: center;
+    font-family: monospace;
+}
+
+.section-format{
+    /* margin: 10px auto; */
+    width: auto;
+    padding: 40px 10px 10px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* text-shadow: 0 0 10px rgb(38, 0, 255), 0 0 8px rgb(25, 0, 255) */
+}
+
+.section-format span{
+    font-size: 40px;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding-top: 1px;
+    display: inline-block;
+    /* display: flex;
+    flex-wrap: wrap; */
+    color: blue;
+}
+
+.section-content{
+    position: relative;
+    width: 84%;
+    height: auto;
+    margin-top: 5vh;
+    /* margin-bottom: 5vh; */
+    /* border: 2px solid white; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skill-content{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 0.8rem;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-color: grey;
+    font-size: 20px;
+    border: 2px solid white;
+    color:white;
+}
+
+.skill-score1{
+    width: 25%;
+    height: inherit;
+    background-color: rgb(134, 134, 30);
+    border-radius: 0.8rem;
+}
+
+.skill-name span{
+    color: white;
+    font-size: 1.25rem;
+    margin-top: -1vh;
+} 
+
+.skill-score2{
+    width: 30%;
+    height: inherit;
+    background-color: rgb(30, 134, 61);
+    border-radius: 0.8rem;
+}
+
+.skill-score3{
+    width: 25%;
+    height: inherit;
+    background-color: rgb(30, 37, 134);
+    border-radius: 0.8rem;
+}
+
+.skill-score4{
+    width: 20%;
+    height: inherit;
+    background-color: rgb(134, 30, 65);
+    border-radius: 0.8rem;
+}
+
+.skill-score5{
+    width: 30%;
+    height: inherit;
+    background-color: rgb(134, 72, 30);
+    border-radius: 0.8rem;
+}
+
+.skill-score6{
+    width: 30%;
+    height: inherit;
+    background-color: rgb(30, 130, 134);
+    border-radius: 0.8rem;
+}
+
+.portfolio-content{
+    width: 10rem;
+    height: 10rem;
+    /* border-radius: 0.8rem; */
+    margin-top: 1vh;
+    margin-bottom: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    background-color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    color:white;
+}
+
+.portfolio-content:hover{
+    width: 166px;
+    height: 166px;
+    box-shadow: 0px 0px 6px 4px burlywood;
+}
+
+.picture{
+    width: 100%;
+    height: inherit;
+    /* background-image: url(resources/hackerrank.jfif); */
+    background-size: contain;
+    background-position: center;
+    /* background-color: rgb(30, 130, 134); */
+    /* border-radius: 0.8rem; */
+}
+
+.picture img:hover{
+    height: 165px;
+    width: 165px;
+}
+
+.outer-box{
+    /* position: relative; */
+    width: 75%;
+    border: 2px solid white;
+}
+
+.text-box{
+    /* position: relative; */
+    margin-top: 3vh;
+    margin-bottom: -2vh;  
+    margin-left: 4vw;
+    margin-right: 12vw;  
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+    min-width: 375px;
+    border: 2px solid white;
+}
+/* .text-box:nth-child(2n){
+    margin-left: 90vh;
+} */
+
+.text-divider{
+    position: absolute;
+    height: 65%;
+    width: 0;
+    border: 2px dotted rgb(106, 152, 236);
+    /* top: 10%;
+    left: 50%; */
+    margin-left: 65vh;
+    margin-top: -65vh;
+}
+
+.text-travel{
+    position: sticky;
+    top: 10%;
+    transform: rotate(90deg);
+}
+
+.head-edu-left{
+    color: chartreuse;
+    font-size: 14px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.course-edu-left{
+    color:beige;
+    font-size: 15px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.duration-edu-left{
+    color:blanchedalmond;
+    font-size: 15px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.score-edu-left{
+    color:burlywood;
+    font-size: 15px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.head-edu-left:hover{
+    font-size: 15px;
+}
+
+.society-content{
+    height: 20rem;
+    width: 20rem;
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    border: 2px solid white;
+    border-radius: 0.8rem;
+    /* background-color: white; */
+    background-color: darkgoldenrod;
+}
+
+.society-picture{
+    /* height: 150px;
+    width: 150px; */
+    margin-top: 2%;
+    margin-left: 22.5%;
+    /* height: 50%;
+    width: 50%; */
+    border-radius: 0.8rem;
+    align-items: center;
+}
+
+.contact-format{
+    background-image: linear-gradient(blue darkblue);
+    width: auto;
+    padding: 40px 10px 10px;
+}
+.contact-format span{
+    font-size: 40px;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    padding-top: 1px;
+    display: inline-block;
+    /* display: flex;
+    flex-wrap: wrap; */
+    color: blue;
+}
