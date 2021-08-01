@@ -275,12 +275,12 @@ section:nth-child(2n + 1){
     width: 40%;
     left: 5%;
     min-height: 150px;
-    min-width: 375px;
+    min-width: 50px;
     border: 2px solid white;
 }
-/* .text-box:nth-child(2n){
+.text-box:nth-child(2n){
     margin-left: 90vh;
-} */
+}
 
 .text-divider{
     position: absolute;
@@ -289,7 +289,7 @@ section:nth-child(2n + 1){
     border: 2px dotted rgb(106, 152, 236);
     /* top: 10%;
     left: 50%; */
-    margin-left: 65vh;
+    margin-left: 80vh;
     margin-top: -65vh;
 }
 
