@@ -7,6 +7,7 @@ body{
     height: 70vh;
     width: 100%;
     background-image: url("resources/black1.jpg");
+    /* background-image: linear-gradient(beige cornsilk); */
     background-repeat: no-repeat;
     background-size: cover;
     /* background-attachment: fixed; */
@@ -26,7 +27,7 @@ body{
 
 #list-1 li{
     display: inline-block;
-    margin: 0px 40px;
+    margin: 0px 20px;
 }
 
 #list-1 li a{
@@ -42,7 +43,7 @@ body{
 }
 
 #name{
-    font-size: 85px;
+    font-size: 75px;
     font-family: cursive;
     color: whitesmoke;
     margin-bottom: 0.5rem;
@@ -142,8 +143,8 @@ section:nth-child(2n + 1){
 
 .section-format span{
     font-size: 40px;
-    margin-right: 0.5rem;
-    margin-left: 0.5rem;
+    /* margin-right: 0.3rem;
+    margin-left: 0.3rem; */
     padding-top: 1px;
     display: inline-block;
     /* display: flex;
@@ -164,7 +165,7 @@ section:nth-child(2n + 1){
 }
 
 .skill-content{
-    width: 20rem;
+    width: 18rem;
     height: 2rem;
     border-radius: 0.8rem;
     margin-top: 3vh;
@@ -272,15 +273,15 @@ section:nth-child(2n + 1){
     margin-bottom: -2vh;  
     margin-left: 4vw;
     margin-right: 12vw;  
-    width: 40%;
+    width: 75%;
     left: 5%;
     min-height: 150px;
     min-width: 50px;
     border: 2px solid white;
 }
-.text-box:nth-child(2n){
+/* .text-box:nth-child(2n){
     margin-left: 90vh;
-}
+} */
 
 .text-divider{
     position: absolute;
@@ -302,28 +303,28 @@ section:nth-child(2n + 1){
 .head-edu-left{
     color: chartreuse;
     font-size: 14px;
-    text-align: right;
+    text-align: center;
     margin-right: 5px;
 }
 
 .course-edu-left{
     color:beige;
     font-size: 15px;
-    text-align: right;
+    text-align: center;
     margin-right: 5px;
 }
 
 .duration-edu-left{
     color:blanchedalmond;
     font-size: 15px;
-    text-align: right;
+    text-align: center;
     margin-right: 5px;
 }
 
 .score-edu-left{
     color:burlywood;
     font-size: 15px;
-    text-align: right;
+    text-align: center;
     margin-right: 5px;
 }
 
@@ -333,7 +334,7 @@ section:nth-child(2n + 1){
 
 .society-content{
     height: 20rem;
-    width: 20rem;
+    width: 18rem;
     margin-top: 5vh;
     margin-left: 5vw;
     margin-right: 5vw;
